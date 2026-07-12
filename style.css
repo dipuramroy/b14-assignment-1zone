@@ -1,0 +1,24 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.common-btn{
+     background-color: #2563EB;
+     padding: 10px 26px;
+     color: white;
+     border: none;
+     border-radius: 7px;
+     font-weight: 600;
+     cursor: pointer;
+}
+
+.common-btn{
+     background-color: #2563EB;
+     padding: 10px 26px;
+     color: white;
+     border: none;
+     border-radius: 7px;
+     font-weight: 600;
+     cursor: pointer;
+}
