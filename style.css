@@ -39,3 +39,27 @@
      background: #2563eb;
      color: #fff;
 }
+.speakers-section-parent{
+     width: 100%;
+     padding: 90px 8%;
+     background: #fff;
+}
+.speakers-title{
+     text-align: center;
+     font-size: 46px;
+     font-weight: 700;
+     color: #111827;
+     margin-bottom: 60px;
+}
+.speaker{
+     display: grid;
+     grid-template-columns: repeat(2,1rf);
+     gap: 25px;
+}
+.speakers-common{
+     background: #fff;
+     border: 1px solid #ececec;
+     border-radius: 8px;
+     overflow: hidden;
+     transition: 35s;
+}
