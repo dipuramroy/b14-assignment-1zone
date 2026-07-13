@@ -3,7 +3,9 @@
      padding: 0px;
      box-sizing: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 /* navber section */
+
 nav{
      display: flex;
      justify-content: space-between;
@@ -31,6 +33,7 @@ nav{
      color: gray;
      font-size: 14px;
  }
+
 /* navber end */
 
 /* Hero section start*/
@@ -66,10 +69,12 @@ nav{
      color: rgb(220, 219, 219);
  
  }
+
  /* hero saction en */
 
 
  /*common button section*/
+
 .common-btn{
      background-color: #2563EB;
      padding: 18px 26px;
@@ -107,10 +112,12 @@ nav{
      color: #fff;
 
 }
+
 /*common button end */
 
                          
-/* speakar section */                    
+/* speakar section */    
+
 .speakers-section-parent{                               
      width: 100%;
      padding: 90px 8%;                     
@@ -161,10 +168,11 @@ nav{
      font-size: 14px;
 }
 
+
 /* speakar end */
 
-/* card section */
 
+/* card section */
 
 .card-section-parent{
      width: 100%;
@@ -278,6 +286,82 @@ li p{
 .cardp,.card-2 p{
      margin-top: 0;
 }
+
+/* card section */
+
+/* Event [AI] Section start */
+
+.schedule-section{
+     padding:100px 0;
+     background:#111827;
+ }
+ 
+ .section-title{
+     text-align:center;
+     margin-bottom:60px;
+ }
+ 
+ .section-title h2{
+     font-size:42px;
+     color:#fff;
+     margin-bottom:15px;
+ }
+ 
+ .section-title p{
+     color:#b5b5b5;
+     max-width:650px;
+     margin:auto;
+     line-height:1.7;
+ }
+ 
+ .schedule-wrapper{
+     display:grid;
+     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+     gap:30px;
+ }
+ 
+ .schedule-card{
+     background:#1f2937;
+     padding:35px;
+     border-radius:18px;
+     transition:.35s;
+     border:1px solid transparent;
+ }
+ 
+ .schedule-card:hover{
+     transform:translateY(-10px);
+     border-color:#6d5dfc;
+ }
+ 
+ .schedule-card.active{
+     background:#6d5dfc;
+ }
+ 
+ .schedule-card .time{
+     display:inline-block;
+     background:#fff;
+     color:#6d5dfc;
+     padding:6px 14px;
+     border-radius:50px;
+     font-size:14px;
+     font-weight:600;
+     margin-bottom:20px;
+ }
+ 
+ .schedule-card h3{
+     color:#fff;
+     margin-bottom:15px;
+     font-size:24px;
+ }
+ 
+ .schedule-card p{
+     color:#d5d5d5;
+     line-height:1.7;
+ }
+
+ /* Event [AI] Section end */
+
+
 /* Footer section */
 footer{
      padding: 16px 7%;
@@ -349,4 +433,5 @@ footer hr{
      margin-top: 20px;
      color: #7d848c;
 }
+
 /* footer section end */
