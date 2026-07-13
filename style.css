@@ -3,6 +3,73 @@
      padding: 0px;
      box-sizing: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+/* navber section */
+nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     max-width: 90vw;
+     margin: 0 auto;
+     height: 70px;
+ }
+ 
+ nav .nav-left img{
+     height: 35px;
+ }
+ nav ul{
+     display: flex;
+     align-items: center;
+     gap: 13px;
+ }
+ 
+ nav ul li{
+     list-style: none;
+ }
+ 
+ nav ul li a{
+     text-decoration: none;
+     color: gray;
+     font-size: 14px;
+ }
+/* navber end */
+
+/* Hero section start*/
+ 
+.hero-section-parent{
+     background-image: url(assets/banner.jpg);
+     object-fit: cover;
+     background-repeat: no-repeat;
+     height: 90vh;
+     margin: 0 auto;
+     padding-top: 60px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 200px;
+     background-position: center;
+     background-size: cover;
+ }
+ .hero-section-article{
+     color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+ }
+ .hero-section-article h4{
+     font-size: 50px;
+ }
+ .hero-section-article p{
+     text-align: center;
+     color: rgb(220, 219, 219);
+ 
+ }
+ /* hero saction en */
+
+
+ /*common button section*/
 .common-btn{
      background-color: #2563EB;
      padding: 10px 26px;
@@ -38,10 +105,15 @@
 .common-btn2:hover{
      background: #2563eb;
      color: #fff;
+
 }
-.speakers-section-parent{
+/*common button end */
+
+                         
+/* speakar section */                    
+.speakers-section-parent{                               
      width: 100%;
-     padding: 90px 8%;
+     padding: 90px 8%;                     
      background: #fff;
 }
 .speakers-title{
@@ -50,22 +122,23 @@
      font-weight: 700;
      color: #111827;
      margin-bottom: 60px;
-}
-.speaker{
-     display: grid;
-     grid-template-columns: repeat(2,1rf);
+}                       
+.speaker{                                                                                                                                                         
+     margin: 100px auto;                                   
+     display: grid;                                                                                                                                                                                       
+     grid-template-columns: repeat(2,1fr);
      gap: 25px;
-}
+}                                                                       
 .speakers-common{
-     background: #fff;
+     background: #fff;                    
      border: 1px solid #ececec;
-     border-radius: 8px;
+     border-radius: 8px;                                                                                                        
      overflow: hidden;
-     transition: 35s;
+     transition: 35s;                                                                                         
 }
 .speakers-common img{
-     width: 100%;
-     height: 230px;
+     width: 642px;
+     height: 324px;                                                      
      object-fit: cover;
 }
 .speakers-common article{
@@ -86,4 +159,184 @@
 .occupation-2{
      color: #6b7280;
      font-size: 14px;
+}
+
+/* speakar end */
+
+/* card section */
+
+
+.card-section-parent{
+     width: 100%;
+     padding: 100px 8%;
+     background: #ffffff;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.card-parent{
+     max-width: 1200px;
+     margin: auto;
+     display: grid;
+     grid-template-columns: repeat(3,2fr);
+     gap: 28px;
+     align-items: stretch;
+}
+.card-section-title{
+     grid-column: 1/-1;
+     text-align: center;
+     margin-bottom: 30px;
+}
+.card-section-title h4{
+     font-size: 52px;
+     color: #142033;
+     font-weight: 700;
+     margin-bottom: 12px;
+}
+.card-section-title p{
+     color: #000000;
+     font-size: 17px;
+}
+.card{
+     background: #fff;
+     border: 1px solid #e5e7eb;
+     border-radius: 14px;
+     padding: 28px;
+     transition: 35s;
+     display: flex;
+     flex-direction: column;
+}
+.card-2{
+     background: #0f1d2d;
+     color: wheat;
+     border-radius: 14px;
+     padding: 28px;
+     display: flex;
+     flex-direction: column;
+}
+.card-2 hr{
+     border: none;
+     border-top: 1px solid rgb(red, green, blue);
+}
+.card-title{
+     font-size: 13px;
+     font-weight: 700;
+     color: #8a8a8a;
+     letter-spacing: 1px;
+     margin-bottom: 10px;
+}
+.card h4,.card-2 h4{
+     font-size: 60px;
+     font-weight: 700;
+     margin-bottom: 6px;
+     line-height: 1;
+}
+.card h4{
+     color: #142033;
+}
+.card-down-title{
+     color:#777;
+     font-size: 15px;
+     margin-bottom: 22px;
+}
+hr{
+     border: none;
+     border-top: 1px solid #ececec;
+     margin-bottom: 24px;
+}
+.card-2 ul li p{
+     color: #777;
+}
+ul{
+     color: black;
+     padding: 0;
+     margin: 0;
+     flex: 1;
+}
+li{
+     display: flex;
+     align-items: center;
+     margin-bottom: 16px;
+}
+li p{
+     margin: 0;
+     font-size: 15px;
+     line-height: 1.5;
+}
+
+.common-btn2{
+     background: wheat;
+     color: #2f6df6;
+     border: 1.8px solid #2f6df6;
+}
+.common-btn{
+     background: #2f6df6;
+     color: wheat;
+     border: none;
+}
+.card h4,.card-2h4{
+     margin-top: 0;
+}
+.cardp,.card-2 p{
+     margin-top: 0;
+}
+/* card section end */
+.ai-section-container{
+     width: 100%;
+     max-width: 1200px;
+     margin: 40px auto;
+     padding: 0 15px;
+     box-sizing: border-box;
+     display: flex;
+     justify-content: center;
+
+}
+.ai-card{
+     width: 90%;
+     max-width: 800px;
+     padding: 60px 20px;
+     background-color: #f0eaff;
+     border: 2px dashed #8b5cf6;
+     border-radius: 8px;
+     text-align: center;
+     box-sizing: border-box;
+     
+}
+.ai-card h1{
+     color: #7c3aed;
+     font-size: 2.5rem;
+     font-weight: 700;
+     margin: 0 0 10px 0;
+
+}
+.ai-card p{
+     color: #7c3aed;
+     font-size: 1.8rem;
+     font-weight: 600;
+     margin: 0;
+}
+
+footer{
+     padding: 100px 8%;
+     background-color: #0d1a29;
+     color: #7d848c;
+}
+.foot_top{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.social_links{
+     display: flex;
+     gap: 25px;
+
+}
+.social_links a i{
+     color: wheat;
+}
+footer hr{
+     margin: 30 0px;
+     
+}
+.foot_bottom{
+     margin-top: 20px;
+     color: #7d848c;
 }
